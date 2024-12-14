@@ -1,0 +1,21 @@
+{
+  "exclude": [
+    "node_modules",
+    "lib",
+    "jest-config.js",
+    "lib/**/*",
+  ],
+  "compilerOptions": {
+    "target": "es6",
+    // "target": "es2015",
+    "module": "commonjs",
+    // "declaration": true,
+    "declaration": false,
+    // "declarationMap": true,
+    "strict": true,
+    // "composite": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "jsxImportSource": "@emotion/react",
+  }
+}

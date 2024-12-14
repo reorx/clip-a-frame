@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Clip a Frame",
+  "description": "Save video screenshots to your clipboard effortlessly",
+  "version": "1.0.1",
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.bilibili.com/*", "https://www.youtube.com/*"],
+      "css": ["content_script.css"],
+      "js": ["content_script.js"]
+    }
+  ]
+}

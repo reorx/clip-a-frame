@@ -1,0 +1,39 @@
+/* www.bilibili.com */
+.bpx-player-video-wrap {
+  position: relative;
+}
+
+/* www.youtube.com */
+.html5-video-container {
+  position: relative;
+}
+
+/* common */
+.video {
+  color: inherit;
+}
+
+:root {
+  --video-toast-width: 300px;
+}
+
+.clip-a-frame-video-toast {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  margin-left: calc(var(--video-toast-width) / -2);
+  width: var(--video-toast-width);
+  height: 40px;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clip-a-frame-video-toast > div {
+  background-color: rgba(200, 200, 200, 0.7);
+  color: #333;
+  font-size: 15px;
+  border-radius: 4px;
+  padding: 8px 12px;
+}
